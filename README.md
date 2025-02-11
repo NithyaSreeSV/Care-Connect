@@ -1,4 +1,3 @@
-# Care-Connect
 AICTE Microsoft SAP Internship Task
 
 # Care connect - Your Medical Assistant 🤖
