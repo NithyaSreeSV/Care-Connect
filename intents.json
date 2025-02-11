@@ -1,0 +1,711 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "What's up?",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help with?",
+        "Hey! How are you doing?",
+        "Greetings! How can I assist?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Take care",
+        "Have a nice day"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "See you soon! Stay healthy.",
+        "Bye! Have a great day.",
+        "Take care! Feel free to chat again."
+      ]
+    },
+    {
+      "tag": "weight_loss",
+      "patterns": [
+        "How can I lose weight?",
+        "Tips for weight loss",
+        "Help me reduce weight",
+        "Best ways to burn fat",
+        "How to maintain a healthy weight?",
+        "What foods are best for weight loss?"
+      ],
+      "responses": [
+        "You should maintain a healthy diet and exercise regularly.",
+        "Consult a dietitian for a personalized plan.",
+        "Focus on a balanced diet and consistent exercise.",
+        "Include more fruits, vegetables, and lean proteins in your meals."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "How to deal with stress?",
+        "Tips for reducing anxiety",
+        "I feel depressed",
+        "How to stay mentally healthy?",
+        "What are mental health tips?",
+        "How can I overcome sadness?"
+      ],
+      "responses": [
+        "Try meditation, yoga, and regular exercise to reduce stress.",
+        "Talk to a trusted friend or a mental health professional.",
+        "Take breaks and prioritize self-care.",
+        "Consider practicing mindfulness and relaxation techniques."
+      ]
+    },
+    {
+      "tag": "skin_care",
+      "patterns": [
+        "How to prevent acne?",
+        "Tips for clear skin",
+        "What causes pimples?",
+        "Help me with my skin issues",
+        "How to get rid of acne?",
+        "What can I do for dry skin?"
+      ],
+      "responses": [
+        "Cleanse your skin regularly and avoid oily foods.",
+        "Drink plenty of water and avoid touching your face.",
+        "Consult a dermatologist for persistent issues.",
+        "Use a moisturizer for dry skin and stay hydrated."
+      ]
+    },
+    {
+      "tag": "brain_tumor",
+      "patterns": [
+        "What is brain tumor detection?",
+        "How does AI detect brain tumors?",
+        "Explain brain tumor analysis",
+        "How are brain tumors diagnosed?",
+        "What are the symptoms of a brain tumor?",
+        "How can I detect brain tumors early?"
+      ],
+      "responses": [
+        "Brain tumor detection uses AI models to analyze medical images.",
+        "AI helps in diagnosing brain tumors using advanced imaging techniques.",
+        "MRI scans can help detect brain tumors with high accuracy.",
+        "Symptoms of brain tumors include headaches, nausea, and vision problems."
+      ]
+    },
+    {
+      "tag": "general_health",
+      "patterns": [
+        "How to stay healthy?",
+        "Tips for a healthy lifestyle",
+        "What can I do to improve my health?",
+        "How to live a long and healthy life?",
+        "What are the basic health tips?"
+      ],
+      "responses": [
+        "Eat a balanced diet, exercise regularly, and get enough sleep.",
+        "Stay hydrated, manage stress, and avoid unhealthy habits.",
+        "Focus on regular health checkups and maintaining a positive mindset.",
+        "Make sure to get regular exercise, eat whole foods, and avoid smoking."
+      ]
+    },
+    {
+      "tag": "heart_disease",
+      "patterns": [
+        "What causes heart disease?",
+        "How can I prevent heart disease?",
+        "Symptoms of heart disease",
+        "What can I do for a healthy heart?",
+        "How to maintain heart health?"
+      ],
+      "responses": [
+        "Heart disease can be caused by factors like high blood pressure, smoking, and poor diet.",
+        "Maintain a healthy diet, exercise regularly, and avoid smoking.",
+        "Symptoms may include chest pain, shortness of breath, and fatigue.",
+        "To maintain a healthy heart, focus on eating a balanced diet and staying active."
+      ]
+    },
+    {
+      "tag": "diabetes",
+      "patterns": [
+        "What is diabetes?",
+        "How can I prevent diabetes?",
+        "Symptoms of diabetes",
+        "How to manage diabetes?",
+        "What foods are good for diabetes?"
+      ],
+      "responses": [
+        "Diabetes is a condition where the body cannot properly process glucose.",
+        "To prevent diabetes, maintain a healthy diet and regular physical activity.",
+        "Symptoms of diabetes include frequent urination, increased thirst, and fatigue.",
+        "For diabetes management, focus on a low-sugar diet and regular monitoring of blood glucose."
+      ]
+    },
+    {
+      "tag": "hydration",
+      "patterns": [
+        "How much water should I drink a day?",
+        "What are the benefits of staying hydrated?",
+        "How can I stay hydrated?",
+        "What happens if you don’t drink enough water?"
+      ],
+      "responses": [
+        "It’s recommended to drink about 8 cups (2 liters) of water per day.",
+        "Staying hydrated helps maintain body temperature, supports digestion, and keeps skin healthy.",
+        "To stay hydrated, drink water throughout the day and include hydrating foods like fruits and vegetables.",
+        "Not drinking enough water can lead to dehydration, which can cause fatigue and dizziness."
+      ]
+    },
+    {
+      "tag": "diet_and_nutrition",
+      "patterns": [
+        "What is a balanced diet?",
+        "How to eat healthy?",
+        "What foods should I avoid?",
+        "What’s the best diet for weight loss?",
+        "How do I maintain a balanced diet?"
+      ],
+      "responses": [
+        "A balanced diet includes fruits, vegetables, whole grains, lean proteins, and healthy fats.",
+        "Avoid processed foods, sugary drinks, and excess fats to maintain a healthy diet.",
+        "For weight loss, focus on portion control and eating more plant-based foods.",
+        "To maintain a balanced diet, aim to have a variety of food from all food groups."
+      ]
+    },
+    {
+      
+      "tag": "exercise_benefits",
+      "patterns": [
+        "Why is exercise important?",
+        "What are the benefits of regular exercise?",
+        "How does exercise improve health?",
+        "Why should I work out?",
+        "Is daily exercise necessary?"
+      ],
+      "responses": [
+        "Exercise helps improve cardiovascular health, boosts mood, and strengthens muscles.",
+        "Regular exercise can reduce the risk of chronic diseases and enhance mental well-being.",
+        "Staying active keeps your body and mind healthy. Aim for at least 30 minutes daily."
+      ]
+    },
+    {
+      "tag": "covid_symptoms",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "How do I know if I have coronavirus?",
+        "Signs of COVID infection",
+        "Can you explain COVID symptoms?",
+        "What are the common symptoms of coronavirus?"
+      ],
+      "responses": [
+        "Common symptoms include fever, cough, shortness of breath, and fatigue.",
+        "You may also experience loss of taste or smell, muscle aches, and a sore throat.",
+        "If you suspect COVID-19, consult a healthcare provider and consider getting tested."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "What are common allergy symptoms?",
+        "How can I treat allergies?",
+        "What causes seasonal allergies?",
+        "How to reduce allergic reactions?",
+        "What are some tips for dealing with allergies?"
+      ],
+      "responses": [
+        "Common symptoms include sneezing, runny nose, itchy eyes, and skin rashes.",
+        "Avoid allergens, use antihistamines, and consult an allergist for severe cases.",
+        "Keep your environment clean and minimize exposure to triggers like pollen or dust."
+      ]
+    },
+    {
+      "tag": "headaches",
+      "patterns": [
+        "What causes headaches?",
+        "How can I get rid of a headache?",
+        "Are there different types of headaches?",
+        "What are migraine symptoms?",
+        "Tips to relieve headaches"
+      ],
+      "responses": [
+        "Headaches can be caused by stress, dehydration, or underlying conditions.",
+        "Try resting, staying hydrated, and avoiding bright lights for relief.",
+        "If headaches persist, consult a healthcare professional for further evaluation."
+      ]
+    },
+    {
+      "tag": "healthy_sleep",
+      "patterns": [
+        "How much sleep do I need?",
+        "Tips for better sleep",
+        "Why is sleep important?",
+        "How can I improve my sleep quality?",
+        "What are the benefits of good sleep?"
+      ],
+      "responses": [
+        "Adults need 7-9 hours of sleep per night for optimal health.",
+        "Maintain a consistent sleep schedule and avoid screens before bedtime.",
+        "Good sleep improves memory, mood, and overall physical health."
+      ]
+    },
+    {
+      "tag": "vaccinations",
+      "patterns": [
+        "Why are vaccinations important?",
+        "What vaccines should I get?",
+        "Are vaccines safe?",
+        "What is the schedule for childhood vaccinations?",
+        "How do vaccines protect us?"
+      ],
+      "responses": [
+        "Vaccines protect against diseases by boosting your immune system.",
+        "They are safe and prevent serious illnesses like measles and polio.",
+        "Consult your doctor for a vaccination schedule suitable for your age and needs."
+      ]
+    },
+    {
+      "tag": "arthritis",
+      "patterns": [
+        "What is arthritis?",
+        "How to manage arthritis pain?",
+        "Symptoms of arthritis",
+        "Can arthritis be cured?",
+        "Tips for living with arthritis"
+      ],
+      "responses": [
+        "Arthritis is inflammation of the joints causing pain and stiffness.",
+        "Treatment includes physical therapy, medication, and lifestyle changes.",
+        "Stay active and maintain a healthy weight to reduce arthritis symptoms."
+      ]
+    },
+    {
+      "tag": "common_cold",
+      "patterns": [
+        "What are the symptoms of a common cold?",
+        "How to treat a cold?",
+        "How long does a cold last?",
+        "What causes the common cold?",
+        "Tips to prevent colds"
+      ],
+      "responses": [
+        "Symptoms include a runny nose, cough, sneezing, and sore throat.",
+        "Rest, stay hydrated, and use over-the-counter remedies for relief.",
+        "Prevent colds by washing hands frequently and avoiding close contact with sick individuals."
+      ]
+    },
+    {
+      "tag": "pregnancy_care",
+      "patterns": [
+        "What are the signs of pregnancy?",
+        "Tips for a healthy pregnancy",
+        "What should I eat during pregnancy?",
+        "How can I prepare for childbirth?",
+        "Is exercise safe during pregnancy?"
+      ],
+      "responses": [
+        "Common signs of pregnancy include nausea, fatigue, and missed periods.",
+        "Eat a balanced diet, take prenatal vitamins, and attend regular checkups.",
+        "Moderate exercise is safe and beneficial for most pregnancies. Consult your doctor for advice."
+      ]
+    },
+    {
+      "tag": "blood_pressure",
+      "patterns": [
+        "What causes high blood pressure?",
+        "How to lower blood pressure?",
+        "What is normal blood pressure?",
+        "Symptoms of high blood pressure",
+        "Tips for managing hypertension"
+      ],
+      "responses": [
+        "High blood pressure can result from poor diet, lack of exercise, or stress.",
+        "Maintain a low-sodium diet, exercise regularly, and manage stress.",
+        "Normal blood pressure is around 120/80 mmHg. Consult your doctor for guidance."
+      ]
+    },
+    {
+      "tag": "first_aid",
+      "patterns": [
+        "How to stop bleeding?",
+        "What to do in case of burns?",
+        "How to perform CPR?",
+        "First aid for choking",
+        "What is basic first aid?"
+      ],
+      "responses": [
+        "Apply pressure to stop bleeding and seek medical help if necessary.",
+        "For burns, cool the area with water and cover with a clean cloth.",
+        "Learn CPR techniques from certified courses to handle emergencies effectively."
+      ]
+    },
+    {
+      "tag": "obesity",
+      "patterns": [
+        "What causes obesity?",
+        "How to reduce obesity?",
+        "Health risks of obesity",
+        "What diet is best for obesity?",
+        "How can I lose weight if I'm obese?"
+      ],
+      "responses": [
+        "Obesity is caused by poor diet, lack of exercise, and genetic factors.",
+        "Focus on a balanced diet, regular exercise, and consulting a dietitian.",
+        "Obesity increases the risk of heart disease, diabetes, and joint issues."
+      ]
+    },
+    {
+      "tag": "mental_illness",
+      "patterns": [
+        "What are the signs of mental illness?",
+        "How to help someone with depression?",
+        "Can anxiety be treated?",
+        "What is therapy for mental health?",
+        "How to improve mental well-being?"
+      ],
+      "responses": [
+        "Signs include changes in mood, behavior, and daily functioning.",
+        "Encourage them to seek professional help and offer support.",
+        "Therapies like CBT and medication can help manage mental health conditions."
+      ]
+    },
+    {
+      "tag": "food_allergies",
+      "patterns": [
+        "What is a food allergy?",
+        "How to manage food allergies?",
+        "Symptoms of food allergies",
+        "What foods commonly cause allergies?",
+        "Tips for living with food allergies"
+      ],
+      "responses": [
+        "Food allergies occur when the immune system reacts to certain foods.",
+        "Symptoms include swelling, hives, and difficulty breathing.",
+        "Avoid trigger foods and carry an epinephrine auto-injector for emergencies."
+      ]
+    },
+    {
+      "tag": "child_health",
+      "patterns": [
+        "How to ensure my child is healthy?",
+        "What vaccines do children need?",
+        "What are common childhood illnesses?",
+        "Tips for healthy child growth",
+        "How to improve immunity in children?"
+      ],
+      "responses": [
+        "Ensure proper nutrition, regular exercise, and routine checkups for your child.",
+        "Follow your pediatrician's advice on vaccinations and preventive care.",
+        "Encourage handwashing and a balanced diet to boost immunity."
+      ]
+    },
+    {
+      "tag": "chronic_pain",
+      "patterns": [
+        "How can I manage chronic pain?",
+        "What are treatments for long-term pain?",
+        "Tips to relieve chronic back pain",
+        "How to cope with persistent pain?",
+        "What causes chronic pain?"
+      ],
+      "responses": [
+        "Chronic pain can often be managed with physical therapy, medications, and mindfulness techniques.",
+        "Consult a specialist for pain management plans tailored to your needs.",
+        "Consider trying relaxation exercises and consulting a pain management clinic."
+      ]
+    },
+    {
+      "tag": "post_surgery_care",
+      "patterns": [
+        "What should I do after surgery?",
+        "How to take care of surgical wounds?",
+        "Post-surgery recovery tips",
+        "How to avoid infections after surgery?",
+        "What foods help with surgery recovery?"
+      ],
+      "responses": [
+        "Keep your wound clean and follow your doctor’s instructions for dressing changes.",
+        "Stay hydrated and eat a protein-rich diet to speed up recovery.",
+        "Avoid heavy lifting and strenuous activities during your recovery period."
+      ]
+    },
+    {
+      "tag": "sleep_disorders",
+      "patterns": [
+        "What causes insomnia?",
+        "How can I improve my sleep if I have sleep apnea?",
+        "What are treatments for sleep disorders?",
+        "Why am I always tired despite sleeping?",
+        "Help me understand restless leg syndrome."
+      ],
+      "responses": [
+        "Sleep disorders like insomnia or sleep apnea may require lifestyle changes or medical intervention.",
+        "Consider seeing a sleep specialist for a detailed evaluation.",
+        "Maintaining a consistent sleep schedule and limiting caffeine intake can help."
+      ]
+    },
+    {
+      "tag": "pediatric_health",
+      "patterns": [
+        "How to care for a sick child?",
+        "What are common childhood illnesses?",
+        "How much sleep does a child need?",
+        "What vaccinations should kids get?",
+        "How to manage a child's fever?"
+      ],
+      "responses": [
+        "Ensure the child is well-hydrated and consult a pediatrician if symptoms persist.",
+        "Common illnesses include colds, ear infections, and chickenpox. Seek medical advice if unsure.",
+        "Follow a vaccination schedule recommended by your healthcare provider."
+      ]
+    },
+    {
+      "tag": "womens_health",
+      "patterns": [
+        "How to maintain hormonal balance?",
+        "What are early signs of menopause?",
+        "Tips for managing menstrual cramps",
+        "What is PCOS and how is it treated?",
+        "How to prepare for pregnancy?"
+      ],
+      "responses": [
+        "Hormonal balance can be maintained with a healthy diet, regular exercise, and adequate sleep.",
+        "For menstrual cramps, try heating pads, hydration, or consulting a gynecologist.",
+        "PCOS treatment may involve lifestyle changes and medication as recommended by a doctor."
+      ]
+    },
+    {
+      "tag": "rare_diseases",
+      "patterns": [
+        "What are rare genetic disorders?",
+        "How to diagnose a rare disease?",
+        "What is the treatment for rare conditions?",
+        "Are rare diseases curable?",
+        "Examples of rare diseases"
+      ],
+      "responses": [
+        "Rare diseases like Huntington's or Gaucher disease often require specialized care.",
+        "Early diagnosis is critical. Consult a specialist for genetic testing.",
+        "Some rare diseases are manageable with medication, while others require lifelong care."
+      ]
+    },
+    {
+      "tag": "condition_specific_nutrition",
+      "patterns": [
+        "What foods are good for kidney health?",
+        "How to eat for better liver health?",
+        "What diet helps with osteoporosis?",
+        "What to eat for better gut health?",
+        "Foods to avoid with high cholesterol"
+      ],
+      "responses": [
+        "For kidney health, focus on a low-sodium, low-protein diet with plenty of fluids.",
+        "Calcium and vitamin D-rich foods help with osteoporosis. Avoid excessive caffeine.",
+        "For high cholesterol, avoid trans fats and eat more fiber-rich foods."
+      ]
+    },
+    {
+      "tag": "emergency_health_tips",
+      "patterns": [
+        "What to do during a heart attack?",
+        "How to handle a stroke emergency?",
+        "First aid for severe burns",
+        "What should I do if someone faints?",
+        "How to help during an asthma attack?"
+      ],
+      "responses": [
+        "For a heart attack, call emergency services immediately and chew aspirin if advised.",
+        "In case of a stroke, note the time of the symptoms and get the person to the hospital quickly.",
+        "For asthma, use an inhaler and help the person sit upright. Seek medical attention if symptoms persist."
+      ]
+    },
+    {
+      "tag": "teen_mental_health",
+      "patterns": [
+        "How to help a teenager with anxiety?",
+        "Signs of depression in teens",
+        "What causes mental health issues in adolescents?",
+        "Tips to improve mental health for teens",
+        "How to manage stress in teenagers?"
+      ],
+      "responses": [
+        "Encourage open communication and seek professional help if needed.",
+        "Common signs of depression in teens include withdrawal, mood swings, and poor academic performance.",
+        "Encourage healthy habits like exercise, a balanced diet, and adequate sleep."
+      ]
+    },
+    {
+      "tag": "skin_allergies",
+      "patterns": [
+        "How to treat skin rashes?",
+        "What causes eczema?",
+        "What are the symptoms of skin allergies?",
+        "How to prevent itchy skin?",
+        "What is the best treatment for hives?"
+      ],
+      "responses": [
+        "Skin rashes may improve with antihistamines or topical creams. Consult a dermatologist for persistent issues.",
+        "Eczema often requires moisturizers and avoiding irritants.",
+        "For hives, try antihistamines and identify any allergy triggers."
+      ]
+    },
+    {
+      "tag": "genetic_counseling",
+      "patterns": [
+        "What is genetic testing?",
+        "When should I consider genetic counseling?",
+        "How do genetic tests work?",
+        "What conditions can genetic testing identify?",
+        "Is genetic testing accurate?"
+      ],
+      "responses": [
+        "Genetic testing helps identify inherited conditions and risks for certain diseases.",
+        "Consider genetic counseling if you have a family history of genetic disorders or are planning a pregnancy.",
+        "Consult a specialist to learn more about genetic testing and its benefits."
+      ]
+    },
+    {
+      "tag": "end_of_life_care",
+      "patterns": [
+        "What is palliative care?",
+        "How to support a terminally ill loved one?",
+        "What are hospice services?",
+        "How to manage pain in end-of-life care?",
+        "What emotional support is available for terminal patients?"
+      ],
+      "responses": [
+        "Palliative care focuses on improving quality of life for terminally ill patients.",
+        "Hospice services provide emotional, physical, and spiritual support for patients and families.",
+        "Managing pain is crucial, and medications or therapies can help significantly."
+      ]
+    },
+    {
+      "tag": "alternative_medicine",
+      "patterns": [
+        "What is acupuncture used for?",
+        "Can herbal remedies treat chronic conditions?",
+        "Is Ayurveda effective for health?",
+        "What are common alternative therapies?",
+        "How does meditation help with healing?"
+      ],
+      "responses": [
+        "Alternative medicine options include acupuncture, herbal remedies, and yoga for holistic healing.",
+        "Meditation and mindfulness can complement traditional treatments for better outcomes.",
+        "Consult a trained practitioner before trying any alternative therapies."
+      ]
+    },
+    {
+      "tag": "oral_health",
+      "patterns": [
+        "How to prevent cavities?",
+        "What causes bad breath?",
+        "How often should I visit a dentist?",
+        "What are signs of gum disease?",
+        "How to maintain healthy teeth?"
+      ],
+      "responses": [
+        "Brush twice daily, floss, and use mouthwash to prevent cavities and gum issues.",
+        "Visit a dentist every 6 months for a check-up.",
+        "Bad breath can be caused by poor oral hygiene, gum disease, or other health conditions."
+      ]
+    },
+    {
+      "tag": "fertility_and_ivf",
+      "patterns": [
+        "What is IVF?",
+        "How long does IVF take?",
+        "What are the success rates for IVF?",
+        "What causes infertility in women?",
+        "How to prepare for fertility treatment?"
+      ],
+      "responses": [
+        "IVF (in-vitro fertilization) involves fertilizing an egg outside the body and implanting it into the uterus.",
+        "Preparation for fertility treatments may involve lifestyle changes and hormonal therapy.",
+        "Infertility can be caused by various factors like PCOS, endometriosis, or low ovarian reserve."
+      ]
+    },
+    {
+      "tag": "postpartum_care",
+      "patterns": [
+        "What is postpartum depression?",
+        "How to care for myself after childbirth?",
+        "What is normal postpartum recovery?",
+        "How to manage breastfeeding issues?",
+        "How much rest does a new mother need?"
+      ],
+      "responses": [
+        "Postpartum depression is common and treatable with support and medical intervention.",
+        "Focus on hydration, nutrition, and adequate rest during recovery.",
+        "For breastfeeding issues, consult a lactation specialist or pediatrician."
+      ]
+    },
+    {
+      "tag": "medical_screening",
+      "patterns": [
+        "What are the benefits of regular health check-ups?",
+        "What screenings are recommended for my age?",
+        "When should I get a colonoscopy?",
+        "What is a mammogram used for?",
+        "How often should I get a blood test?"
+      ],
+      "responses": [
+        "Regular health check-ups help detect diseases early and maintain overall well-being.",
+        "Screenings depend on your age, gender, and medical history. Consult your doctor for guidance.",
+        "Mammograms are recommended for women over 40 or earlier if at risk for breast cancer."
+      ]
+    },
+    {
+      "tag": "pain_and_stress",
+      "patterns": [
+        "How to reduce stress naturally?",
+        "What are tips for managing migraines?",
+        "How to treat tension headaches?",
+        "How to relieve joint pain?",
+        "What exercises help with chronic pain?"
+      ],
+      "responses": [
+        "Deep breathing, meditation, and regular exercise can help reduce stress naturally.",
+        "For migraines, stay hydrated and rest in a dark, quiet room.",
+        "Low-impact exercises like yoga or swimming can ease joint pain and improve flexibility."
+      ]
+    },
+    {
+      "tag": "environmental_health",
+      "patterns": [
+        "How does pollution affect my health?",
+        "What are health risks of bad air quality?",
+        "What are the effects of contaminated water?",
+        "How can I protect my skin from UV rays?",
+        "What are long-term effects of noise pollution?"
+      ],
+      "responses": [
+        "Pollution can lead to respiratory, skin, and cardiovascular issues. Limit exposure and use protection.",
+        "Drink filtered water to avoid contamination and prevent waterborne diseases.",
+        "Wear sunscreen and protective clothing to shield your skin from harmful UV rays."
+      ]
+    },
+    {
+      "tag": "gastrointestinal_health",
+      "patterns": [
+        "What causes acid reflux?",
+        "How to treat irritable bowel syndrome?",
+        "What are signs of food intolerance?",
+        "How to improve digestion?",
+        "What foods to avoid with a sensitive stomach?"
+      ],
+      "responses": [
+        "Acid reflux can be managed by avoiding trigger foods and eating smaller meals.",
+        "For IBS, a high-fiber diet and stress management techniques may help.",
+        "Identify food triggers through elimination diets or consulting a dietitian."
+      ]
+    }                                                                               
+  ]
+}
